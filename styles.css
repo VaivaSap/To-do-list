@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	background-color: #c89595;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #864879;
+}
+
+button {
+	background-color: #d8b6a4;
+	color: #a06192;
+	border-radius: 15%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 600;
+}
+input {
+	background-color: #d8b6a4;
+	color: #814073;
+	font-style: oblique;
+}
+
+.task-text {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #864879;
+	font-size: 13px;
+	font-weight: 600;
+	padding: 10px 0;
+}
+
+.delete-button {
+	height: 20px;
+	width: 20px;
+	background-size: contain;
+	background-image: url("./assets/done.jpg");
+	margin-left: 10px;
+}
